@@ -132,8 +132,6 @@ elements.shopping.addEventListener('click', e => {
         const val = parseFloat(e.target.value, 10);
         state.list.updateCount(id, val)
     }   
-    window.l = state.list;
-    
 });
 
 
